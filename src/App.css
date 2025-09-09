@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #f8f9fa; /* A light grey background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #343a40; /* A dark text color */
+}
+
+.App-link {
+  color: #0a74e8; /* A nice blue for the link */
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid #0a74e8;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.App-link:hover {
+  background-color: #0a74e8;
+  color: white;
+}
